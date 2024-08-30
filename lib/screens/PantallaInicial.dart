@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/widgets/calendar.dart';
 import '../screens/Pantalla_opciones.dart';
+import '../widgets/tarjeta_dosis.dart';
 
 class PantallaInicial extends StatelessWidget {
   const PantallaInicial({super.key});
@@ -25,6 +26,7 @@ class PantallaInicial extends StatelessWidget {
           child: const Column(
             children: [
               Calendar(),
+              TarjetaDosis(),
               Expanded(
                 child: Center(
                   child: Text(
