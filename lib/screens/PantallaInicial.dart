@@ -2,7 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/widgets/calendar.dart';
-import '../screens/Pantalla_opciones.dart';
 import '../widgets/tarjeta_dosis.dart';
 
 class PantallaInicial extends StatelessWidget {

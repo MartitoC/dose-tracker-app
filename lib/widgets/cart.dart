@@ -14,13 +14,13 @@ class HourCard extends StatelessWidget {
         child: Container(
           width: 60,
           alignment: Alignment.center,
-          margin: EdgeInsets.only(right: 8),
-          child:
-              Text(hour, style: TextStyle(fontSize: 18, color: Colors.white)),
+          margin: const EdgeInsets.only(right: 8),
           decoration: BoxDecoration(
             color: getRandomColor(),
             borderRadius: BorderRadius.circular(15),
           ),
+          child: Text(hour,
+              style: const TextStyle(fontSize: 18, color: Colors.white)),
         ));
   }
 }

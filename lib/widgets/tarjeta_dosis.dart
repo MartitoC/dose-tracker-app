@@ -1,7 +1,4 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import '../widgets/cart.dart';
 
 class TarjetaDosis extends StatelessWidget {
@@ -36,7 +33,7 @@ class TarjetaDosis extends StatelessWidget {
                       width: 186,
                       height: 56,
                       margin: const EdgeInsets.only(left: 10, right: 0),
-                      padding: EdgeInsets.only(top: 20),
+                      padding: const EdgeInsets.only(top: 20),
                       decoration: const BoxDecoration(),
                       child: const Text(
                         'Quitadol Foerte 500mg',
@@ -44,7 +41,7 @@ class TarjetaDosis extends StatelessWidget {
                             fontSize: 16, fontWeight: FontWeight.w600),
                       ),
                     ),
-                    Container(
+                    SizedBox(
                         width: 170,
                         height: 40,
                         child: ListView.builder(
